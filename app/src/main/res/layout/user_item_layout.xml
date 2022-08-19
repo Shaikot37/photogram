@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="30dp"
+    android:background="@drawable/button_background">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/profile_logo"
+            android:layout_marginTop="10dp"
+            />
+
+        <TextView
+            android:id="@+id/userName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="User Name" />
+
+        <TextView
+            android:id="@+id/userProfileName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/userName"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="User Profile Name" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/userProfileName"
+            android:text="Follow"
+            android:textColor="@color/white"
+            android:background="@color/teal_700"
+            android:textStyle="bold"
+            android:layout_centerVertical="true"
+            android:id="@+id/follow"/>
+
+    </RelativeLayout>
+</RelativeLayout>

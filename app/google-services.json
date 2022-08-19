@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "412554423372",
+    "project_id": "photogram-97cb4",
+    "storage_bucket": "photogram-97cb4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:412554423372:android:4eb19cdf003f717b69d8e9",
+        "android_client_info": {
+          "package_name": "shaikot.application.photogram"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "412554423372-lrqjiqv0521hlv9s6tun4qptnauntj4u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxp5w7dH497_iWJWE9-_84qZhShQXXekc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "412554423372-lrqjiqv0521hlv9s6tun4qptnauntj4u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
